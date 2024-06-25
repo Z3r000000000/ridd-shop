@@ -1,0 +1,768 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Ridd | Интернет-магазин</title>
+	<link rel="icon" href="img/favicon.svg">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;800&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/index.css">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+</head>
+<body>
+
+<div class="mobileHeader">
+	<div class="wrapper">
+		<div class="mobileHeader__wrap">
+			<div class="mobileHeader__side">
+				<div class="burger">
+					<img src="img/burger.svg" alt="">
+				</div>
+
+				<div class="mobileLogo">
+					<img src="img/mobile-logo-icon.svg" alt="" class="mobileLogo__image">
+					<span class="mobileLogo__text">Ridd</span>
+				</div>
+			</div>
+
+			<div class="mobileHeader__side">				
+				<a href="#" class="mobileHeaderSearchIcon">
+					<svg width="24" height="24">
+						<use xlink:href="sprites.svg#search"></use>
+					</svg>
+				</a>
+
+				<a href="#" class="mobileHeaderIcon">
+					<img src="img/account-icon-white.svg" alt="">
+				</a>
+				<a href="#" class="mobileHeaderIcon">
+					<img src="img/mobile-header-wishlist-icon.svg" alt="">
+				</a>
+				<a href="#" class="mobileHeaderIcon">
+					<img src="img/mobile-header-cart-icon.svg" alt="">
+				</a>				
+			</div>
+		</div>
+	</div>
+</div>
+
+<form action="#" class="mobileSearch">
+	<div class="wrapper">
+		<div class="mobileSearch__wrap">
+			<input type="text" name="s" placeholder="Поиск" autocomplete="off" required class="mobileSearch__input">
+			<button type="submit" class="mobileSearch__submit" title="Искать">
+				<img src="img/search-icon-base.svg" alt="">
+			</button>
+		</div>
+	</div>	
+</form>
+
+<div class="mobMenuOverlay"></div>
+
+<section class="mobMenu">
+	<div class="mobMenuBlock">
+		<div class="mobMenuBlockTitle">
+			<p class="mobMenuBlockTitle__text">Магазин</p>
+			<img src="img/mob-menu-side-arrow.svg" alt="" class="mobMenuBlockTitle__arrow">
+		</div>
+		<ul class="mobMenuBlockList">
+			<li><a href="#">Смартфоны</a></li>
+			<li><a href="#">Планшеты</a></li>
+			<li><a href="#">ПК и ноутбуки</a></li>
+			<li><a href="#">Аксессуары</a></li>
+			<li><a href="#">Наушники</a></li>
+			<li><a href="#">Мышки</a></li>
+			<li><a href="#">Клавиатуры</a></li>
+			<li><a href="#">Игровые консоли</a></li>
+			<li><a href="#">Офисная мебель</a></li>
+			<li><a href="#">Микрофоны</a></li>
+			<li><a href="#">Игровые стулья</a></li>
+			<li><a href="#">Новинки</a></li>
+		</ul>
+	</div>
+
+	<div class="mobMenuBlock">
+		<div class="mobMenuBlockTitle">
+			<p class="mobMenuBlockTitle__text">Подборки товаров</p>
+			<img src="img/mob-menu-side-arrow.svg" alt="" class="mobMenuBlockTitle__arrow">
+		</div>
+		<ul class="mobMenuBlockList">
+			<li><a href="#">Apple</a></li>
+			<li><a href="#">Gamers</a></li>
+			<li><a href="#">В хороший офис</a></li>
+			<li><a href="#">Для творческой натуры</a></li>
+			<li><a href="#">В быту</a></li>
+		</ul>
+	</div>
+
+	<div class="mobMenuBlock">
+		<div class="mobMenuBlockTitle">
+			<p class="mobMenuBlockTitle__text">Сервисы</p>
+			<img src="img/mob-menu-side-arrow.svg" alt="" class="mobMenuBlockTitle__arrow">
+		</div>
+		<ul class="mobMenuBlockList">
+			<li><a href="#">Trade-in</a></li>
+			<li><a href="#">Ремонт</a></li>
+			<li><a href="#">Сборка ПК</a></li>
+		</ul>
+	</div>
+
+	<div class="mobMenuBlock">
+		<div class="mobMenuBlockTitle">
+			<p class="mobMenuBlockTitle__text">Информация</p>
+			<img src="img/mob-menu-side-arrow.svg" alt="" class="mobMenuBlockTitle__arrow">
+		</div>
+		<ul class="mobMenuBlockList">
+			<li><a href="#">О нас</a></li>
+			<li><a href="#">Доставка</a></li>
+			<li><a href="#">Гарантии</a></li>
+			<li><a href="#">Криптооплата</a></li>
+		</ul>
+	</div>
+
+	<a href="#" class="mobMenuBlock">
+		<span class="mobMenuBlockTitle">
+			<span class="mobMenuBlockTitle__text">Криптооплата</span>
+		</span>
+	</a>
+
+	<div class="mobMenu__items">
+		<a href="#" class="mobMenuItem">
+			<img src="img/account-icon-dark.svg" alt="" class="mobMenuItem__icon">
+			<span class="mobMenuItem__text">Мой аккаунт</span>
+		</a>
+
+		<a href="#" class="mobMenuItem">
+			<img src="img/header-wishlist-icon.svg" alt="" class="mobMenuItem__icon">
+			<span class="mobMenuItem__text">Корзина</span>
+		</a>
+
+		<a href="#" class="mobMenuItem">
+			<img src="img/header-cart-icon.svg" alt="" class="mobMenuItem__icon">
+			<span class="mobMenuItem__text">Избранное</span>
+		</a>
+	</div>
+
+	<div class="mobMenuContacts">
+		<a href="tel:+7 (977) 132-88-05" class="mobMenuContacts__phone">+7 (977) 132-88-05</a>
+		<div class="mobMenuContacts__links">
+			<a href="https://t.me/qweqwertuu" target="_blank" class="mobMenuContacts__link" title="Telegram">
+				<img src="img/telegram-dark.svg" alt="">
+			</a>
+		</div>
+	</div>
+</section>
+
+<section class="headerHead">
+	<div class="wrapper">
+		<div class="headerHead__wrap">
+			<div class="headerHead__left">
+				<a href="tel:+7 (977) 132-88-05" class="headerHead__phone">+7 (977) 132-88-05</a>
+				<div class="headerHead__links">
+					<a href="https://t.me/qweqwertuu" target="_blank" class="headerHead__link" title="Telegram">
+						<img src="img/telegram-white.svg" alt="">
+					</a>
+				</div>
+			</div>
+
+			<a href="#" class="headerAccount">
+				<span class="headerAccount__top">
+					<img src="img/account-icon-white.svg" alt="" class="headerAccount__icon">
+					<span class="headerAccount__text">Войти в аккаунт</span>
+				</span>
+			</a>
+		</div>
+	</div>
+</section>
+
+<section class="headerCenter">
+	<div class="wrapper">
+		<div class="headerCenter__wrap">
+			<a href="/" class="headerLogo">
+				<img src="img/logo-icon.svg" alt="" class="headerLogo__image">
+				<span class="headerLogo__text">Ridd</span>
+			</a>
+
+			<form action="#" class="headerSearch">
+				<input type="text" name="s" placeholder="Поиск" autocomplete="off" required class="headerSearch__input">
+				<button type="submit" class="headerSearch__submit" title="Искать">
+					<img src="img/search-icon-base.svg" alt="">
+				</button>
+			</form>
+
+			<div class="headerCenter__links">
+				<a href="#" class="headerCenterLink" title="Избранное">
+					<img src="img/header-wishlist-icon.svg" alt="" class="headerCenterLink__icon">
+					<span class="headerCenterLink__digit">8</span>
+				</a>
+				<a href="#" class="headerCenterLink" title="Корзина">
+					<img src="img/header-cart-icon.svg" alt="" class="headerCenterLink__icon">
+					<span class="headerCenterLink__digit">95</span>
+				</a>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="headerBottom">
+	<div class="wrapper">
+		<nav class="headerMenu">
+			<a href="#" class="headerMenuItem">
+				<span class="headerMenuItem__text">Магазин</span>
+			</a>
+			<div class="headerMenuItem">
+				<p class="headerMenuItem__text">Подборки товаров</p>
+				<div class="headerMenuItem__icon">
+					<svg width="20" height="20">
+						<use xlink:href="sprites.svg#menuIcon1"></use>
+					</svg>
+				</div>
+
+				<div class="headerMenuItem__submenu">
+					<a href="#" class="headerMenuSubmenuItem">Apple</a>
+					<a href="#" class="headerMenuSubmenuItem">Gamers</a>
+					<a href="#" class="headerMenuSubmenuItem">В хороший офис</a>
+					<a href="#" class="headerMenuSubmenuItem">Для творческой натуры</a>
+					<a href="#" class="headerMenuSubmenuItem">В быту</a>
+				</div>
+			</div>
+			<div class="headerMenuItem">
+				<p class="headerMenuItem__text">Сервисы</p>
+				<div class="headerMenuItem__icon stroke">
+					<svg width="20" height="20">
+						<use xlink:href="sprites.svg#menuIcon2"></use>
+					</svg>
+				</div>
+
+				<div class="headerMenuItem__submenu">
+					<a href="#" class="headerMenuSubmenuItem">Trade-in</a>
+					<a href="#" class="headerMenuSubmenuItem">Ремонт</a>
+					<a href="#" class="headerMenuSubmenuItem">Сборка ПК</a>
+				</div>
+			</div>
+			<a href="#" class="headerMenuItem">
+				<span class="headerMenuItem__text">Криптооплата</span>
+			</a>
+		</nav>
+	</div>
+</section>
+
+
+
+
+<main class="pageContent">
+	<section class="section section_noPadT">
+		<div class="wrapper">
+			<div class="crumbs">
+				<span>
+					<span>
+						<a href="/">Главная</a>
+					</span>
+					/
+					<span>Подборки товаров</span>
+				</span>
+			</div>
+
+			<h1 class="h3 section__title">Подборки товаров</h1>
+
+			<div class="collection collection_sale">
+				<p class="collection__sale">-10%</p>
+
+				<div class="collection__head">
+					<h3 class="h4 collection__title">Apple</h3>
+					<div class="collection__text">
+						<p>Ощутите полное погружение в виртуальную реальность вместе с этими гаджетами. Здесь собраны самые мощные консоли, наушники и мониторы, которые помогут вам стать чемпионом в любой компьютерной игре.</p>
+					</div>
+				</div>
+				<div class="collection__content">
+					<div class="collectionHorizontal">
+						<div class="productsItem">
+							<a href="#" class="productsItem__wishlist" title="Добавить в избранное">
+								<img src="img/product-wishlist.svg" alt="">
+							</a>
+							<a href="#" class="productsItemImage">
+								<span class="productsItemImage__padding"></span>
+								<img src="img/product1.png" alt="">
+							</a>
+							<a href="#" class="productsItem__title">Apple iPhone 13, 128 ГБ, розовый</a>
+							<p class="productsItem__price">77 990 ₽</p>
+							<p class="productsItem__oldPrice">82 990 ₽</p>
+							<div class="productsItem__cart">
+								<a href="#" class="btn btn_s btn_full">В корзину</a>
+							</div>
+						</div>
+						<div class="productsItem">
+							<a href="#" class="productsItem__wishlist" title="Добавить в избранное">
+								<img src="img/product-wishlist.svg" alt="">
+							</a>
+							<a href="#" class="productsItemImage">
+								<span class="productsItemImage__padding"></span>
+								<img src="img/product1.png" alt="">
+							</a>
+							<a href="#" class="productsItem__title">Apple iPhone 13, 128 ГБ, розовый</a>
+							<p class="productsItem__price">77 990 ₽</p>
+							<p class="productsItem__oldPrice">82 990 ₽</p>
+							<div class="productsItem__cart">
+								<a href="#" class="btn btn_s btn_full">В корзину</a>
+							</div>
+						</div>
+						<div class="productsItem">
+							<a href="#" class="productsItem__wishlist" title="Добавить в избранное">
+								<img src="img/product-wishlist.svg" alt="">
+							</a>
+							<a href="#" class="productsItemImage">
+								<span class="productsItemImage__padding"></span>
+								<img src="img/product1.png" alt="">
+							</a>
+							<a href="#" class="productsItem__title">Apple iPhone 13, 128 ГБ, розовый</a>
+							<p class="productsItem__price">77 990 ₽</p>
+							<p class="productsItem__oldPrice">82 990 ₽</p>
+							<div class="productsItem__cart">
+								<a href="#" class="btn btn_s btn_full">В корзину</a>
+							</div>
+						</div>
+						<div class="productsItem">
+							<a href="#" class="productsItem__wishlist" title="Добавить в избранное">
+								<img src="img/product-wishlist.svg" alt="">
+							</a>
+							<a href="#" class="productsItemImage">
+								<span class="productsItemImage__padding"></span>
+								<img src="img/product1.png" alt="">
+							</a>
+							<a href="#" class="productsItem__title">Apple iPhone 13, 128 ГБ, розовый</a>
+							<p class="productsItem__price">77 990 ₽</p>
+							<p class="productsItem__oldPrice">82 990 ₽</p>
+							<div class="productsItem__cart">
+								<a href="#" class="btn btn_s btn_full">В корзину</a>
+							</div>
+						</div>
+						<div class="productsItem">
+							<a href="#" class="productsItem__wishlist" title="Добавить в избранное">
+								<img src="img/product-wishlist.svg" alt="">
+							</a>
+							<a href="#" class="productsItemImage">
+								<span class="productsItemImage__padding"></span>
+								<img src="img/product1.png" alt="">
+							</a>
+							<a href="#" class="productsItem__title">Apple iPhone 13, 128 ГБ, розовый</a>
+							<p class="productsItem__price">77 990 ₽</p>
+							<p class="productsItem__oldPrice">82 990 ₽</p>
+							<div class="productsItem__cart">
+								<a href="#" class="btn btn_s btn_full">В корзину</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="collection collection">
+				<div class="collection__content">
+					<div class="collectionHorizontal">
+						<div class="productsItem">
+							<a href="#" class="productsItem__wishlist" title="Добавить в избранное">
+								<img src="img/product-wishlist.svg" alt="">
+							</a>
+							<a href="#" class="productsItemImage">
+								<span class="productsItemImage__padding"></span>
+								<img src="img/product1.png" alt="">
+							</a>
+							<a href="#" class="productsItem__title">Apple iPhone 13, 128 ГБ, розовый</a>
+							<p class="productsItem__price">77 990 ₽</p>
+							<p class="productsItem__oldPrice">82 990 ₽</p>
+							<div class="productsItem__cart">
+								<a href="#" class="btn btn_s btn_full">В корзину</a>
+							</div>
+						</div>
+						<div class="productsItem">
+							<a href="#" class="productsItem__wishlist" title="Добавить в избранное">
+								<img src="img/product-wishlist.svg" alt="">
+							</a>
+							<a href="#" class="productsItemImage">
+								<span class="productsItemImage__padding"></span>
+								<img src="img/product1.png" alt="">
+							</a>
+							<a href="#" class="productsItem__title">Apple iPhone 13, 128 ГБ, розовый</a>
+							<p class="productsItem__price">77 990 ₽</p>
+							<p class="productsItem__oldPrice">82 990 ₽</p>
+							<div class="productsItem__cart">
+								<a href="#" class="btn btn_s btn_full">В корзину</a>
+							</div>
+						</div>
+						<div class="productsItem">
+							<a href="#" class="productsItem__wishlist" title="Добавить в избранное">
+								<img src="img/product-wishlist.svg" alt="">
+							</a>
+							<a href="#" class="productsItemImage">
+								<span class="productsItemImage__padding"></span>
+								<img src="img/product1.png" alt="">
+							</a>
+							<a href="#" class="productsItem__title">Apple iPhone 13, 128 ГБ, розовый</a>
+							<p class="productsItem__price">77 990 ₽</p>
+							<p class="productsItem__oldPrice">82 990 ₽</p>
+							<div class="productsItem__cart">
+								<a href="#" class="btn btn_s btn_full">В корзину</a>
+							</div>
+						</div>
+						<div class="productsItem">
+							<a href="#" class="productsItem__wishlist" title="Добавить в избранное">
+								<img src="img/product-wishlist.svg" alt="">
+							</a>
+							<a href="#" class="productsItemImage">
+								<span class="productsItemImage__padding"></span>
+								<img src="img/product1.png" alt="">
+							</a>
+							<a href="#" class="productsItem__title">Apple iPhone 13, 128 ГБ, розовый</a>
+							<p class="productsItem__price">77 990 ₽</p>
+							<p class="productsItem__oldPrice">82 990 ₽</p>
+							<div class="productsItem__cart">
+								<a href="#" class="btn btn_s btn_full">В корзину</a>
+							</div>
+						</div>
+						<div class="productsItem">
+							<a href="#" class="productsItem__wishlist" title="Добавить в избранное">
+								<img src="img/product-wishlist.svg" alt="">
+							</a>
+							<a href="#" class="productsItemImage">
+								<span class="productsItemImage__padding"></span>
+								<img src="img/product1.png" alt="">
+							</a>
+							<a href="#" class="productsItem__title">Apple iPhone 13, 128 ГБ, розовый</a>
+							<p class="productsItem__price">77 990 ₽</p>
+							<p class="productsItem__oldPrice">82 990 ₽</p>
+							<div class="productsItem__cart">
+								<a href="#" class="btn btn_s btn_full">В корзину</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="collection__head">
+					<h3 class="h4 collection__title">Gamers</h3>
+					<div class="collection__text">
+						<p>Ощутите полное погружение в виртуальную реальность вместе с этими гаджетами. Здесь собраны самые мощные консоли, наушники и мониторы, которые помогут вам стать чемпионом в любой компьютерной игре.</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="collectionWrap">
+				<div class="collectionItem">
+					<h3 class="h4 collectionItem__title">В хороший офис</h3>
+					<div class="collectionItem__text">
+						<p>Сделайте свой дом уютным и комфортным с умными устройствами. Увлажнители воздуха, умные светильники и роботы-пылесосы снимут с вас рутинные бытовые задачи и сэкономят время для общения с близкими.</p>
+					</div>
+					<div class="collectionItem__content">
+						<div class="collectionItemVertical">
+							<div class="productsItem">
+								<a href="#" class="productsItem__wishlist" title="Добавить в избранное">
+									<img src="img/product-wishlist.svg" alt="">
+								</a>
+								<a href="#" class="productsItemImage">
+									<span class="productsItemImage__padding"></span>
+									<img src="img/product1.png" alt="">
+								</a>
+								<a href="#" class="productsItem__title">Apple iPhone 13, 128 ГБ, розовый</a>
+								<p class="productsItem__price">77 990 ₽</p>
+								<p class="productsItem__oldPrice">82 990 ₽</p>
+								<div class="productsItem__cart">
+									<a href="#" class="btn btn_s btn_full">В корзину</a>
+								</div>
+							</div>
+							<div class="productsItem">
+								<a href="#" class="productsItem__wishlist" title="Добавить в избранное">
+									<img src="img/product-wishlist.svg" alt="">
+								</a>
+								<a href="#" class="productsItemImage">
+									<span class="productsItemImage__padding"></span>
+									<img src="img/product1.png" alt="">
+								</a>
+								<a href="#" class="productsItem__title">Apple iPhone 13, 128 ГБ, розовый</a>
+								<p class="productsItem__price">77 990 ₽</p>
+								<p class="productsItem__oldPrice">82 990 ₽</p>
+								<div class="productsItem__cart">
+									<a href="#" class="btn btn_s btn_full">В корзину</a>
+								</div>
+							</div>
+							<div class="productsItem">
+								<a href="#" class="productsItem__wishlist" title="Добавить в избранное">
+									<img src="img/product-wishlist.svg" alt="">
+								</a>
+								<a href="#" class="productsItemImage">
+									<span class="productsItemImage__padding"></span>
+									<img src="img/product1.png" alt="">
+								</a>
+								<a href="#" class="productsItem__title">Apple iPhone 13, 128 ГБ, розовый</a>
+								<p class="productsItem__price">77 990 ₽</p>
+								<p class="productsItem__oldPrice">82 990 ₽</p>
+								<div class="productsItem__cart">
+									<a href="#" class="btn btn_s btn_full">В корзину</a>
+								</div>
+							</div>
+							<div class="productsItem">
+								<a href="#" class="productsItem__wishlist" title="Добавить в избранное">
+									<img src="img/product-wishlist.svg" alt="">
+								</a>
+								<a href="#" class="productsItemImage">
+									<span class="productsItemImage__padding"></span>
+									<img src="img/product1.png" alt="">
+								</a>
+								<a href="#" class="productsItem__title">Apple iPhone 13, 128 ГБ, розовый</a>
+								<p class="productsItem__price">77 990 ₽</p>
+								<p class="productsItem__oldPrice">82 990 ₽</p>
+								<div class="productsItem__cart">
+									<a href="#" class="btn btn_s btn_full">В корзину</a>
+								</div>
+							</div>
+							<div class="productsItem">
+								<a href="#" class="productsItem__wishlist" title="Добавить в избранное">
+									<img src="img/product-wishlist.svg" alt="">
+								</a>
+								<a href="#" class="productsItemImage">
+									<span class="productsItemImage__padding"></span>
+									<img src="img/product1.png" alt="">
+								</a>
+								<a href="#" class="productsItem__title">Apple iPhone 13, 128 ГБ, розовый</a>
+								<p class="productsItem__price">77 990 ₽</p>
+								<p class="productsItem__oldPrice">82 990 ₽</p>
+								<div class="productsItem__cart">
+									<a href="#" class="btn btn_s btn_full">В корзину</a>
+								</div>
+							</div>
+							<div class="productsItem">
+								<a href="#" class="productsItem__wishlist" title="Добавить в избранное">
+									<img src="img/product-wishlist.svg" alt="">
+								</a>
+								<a href="#" class="productsItemImage">
+									<span class="productsItemImage__padding"></span>
+									<img src="img/product1.png" alt="">
+								</a>
+								<a href="#" class="productsItem__title">Apple iPhone 13, 128 ГБ, розовый</a>
+								<p class="productsItem__price">77 990 ₽</p>
+								<p class="productsItem__oldPrice">82 990 ₽</p>
+								<div class="productsItem__cart">
+									<a href="#" class="btn btn_s btn_full">В корзину</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="collectionItem collectionItem_sale">
+					<p class="collectionItem__sale">-10%</p>
+					
+					<h3 class="h4 collectionItem__title">Для творческой натуры</h3>
+					<div class="collectionItem__text">
+						<p>Почувствуйте вдохновение: устройства из этой подборки созданы для реализации ваших креативных идей. Высокотехнологичный планшет или функциональная камера — какой инструмент вы выберете?</p>
+					</div>
+					<div class="collectionItem__content">
+						<div class="collectionItemVertical">
+							<div class="productsItem">
+								<a href="#" class="productsItem__wishlist" title="Добавить в избранное">
+									<img src="img/product-wishlist.svg" alt="">
+								</a>
+								<a href="#" class="productsItemImage">
+									<span class="productsItemImage__padding"></span>
+									<img src="img/product1.png" alt="">
+								</a>
+								<a href="#" class="productsItem__title">Apple iPhone 13, 128 ГБ, розовый</a>
+								<p class="productsItem__price">77 990 ₽</p>
+								<p class="productsItem__oldPrice">82 990 ₽</p>
+								<div class="productsItem__cart">
+									<a href="#" class="btn btn_s btn_full">В корзину</a>
+								</div>
+							</div>
+							<div class="productsItem">
+								<a href="#" class="productsItem__wishlist" title="Добавить в избранное">
+									<img src="img/product-wishlist.svg" alt="">
+								</a>
+								<a href="#" class="productsItemImage">
+									<span class="productsItemImage__padding"></span>
+									<img src="img/product1.png" alt="">
+								</a>
+								<a href="#" class="productsItem__title">Apple iPhone 13, 128 ГБ, розовый</a>
+								<p class="productsItem__price">77 990 ₽</p>
+								<p class="productsItem__oldPrice">82 990 ₽</p>
+								<div class="productsItem__cart">
+									<a href="#" class="btn btn_s btn_full">В корзину</a>
+								</div>
+							</div>
+							<div class="productsItem">
+								<a href="#" class="productsItem__wishlist" title="Добавить в избранное">
+									<img src="img/product-wishlist.svg" alt="">
+								</a>
+								<a href="#" class="productsItemImage">
+									<span class="productsItemImage__padding"></span>
+									<img src="img/product1.png" alt="">
+								</a>
+								<a href="#" class="productsItem__title">Apple iPhone 13, 128 ГБ, розовый</a>
+								<p class="productsItem__price">77 990 ₽</p>
+								<p class="productsItem__oldPrice">82 990 ₽</p>
+								<div class="productsItem__cart">
+									<a href="#" class="btn btn_s btn_full">В корзину</a>
+								</div>
+							</div>
+							<div class="productsItem">
+								<a href="#" class="productsItem__wishlist" title="Добавить в избранное">
+									<img src="img/product-wishlist.svg" alt="">
+								</a>
+								<a href="#" class="productsItemImage">
+									<span class="productsItemImage__padding"></span>
+									<img src="img/product1.png" alt="">
+								</a>
+								<a href="#" class="productsItem__title">Apple iPhone 13, 128 ГБ, розовый</a>
+								<p class="productsItem__price">77 990 ₽</p>
+								<p class="productsItem__oldPrice">82 990 ₽</p>
+								<div class="productsItem__cart">
+									<a href="#" class="btn btn_s btn_full">В корзину</a>
+								</div>
+							</div>
+							<div class="productsItem">
+								<a href="#" class="productsItem__wishlist" title="Добавить в избранное">
+									<img src="img/product-wishlist.svg" alt="">
+								</a>
+								<a href="#" class="productsItemImage">
+									<span class="productsItemImage__padding"></span>
+									<img src="img/product1.png" alt="">
+								</a>
+								<a href="#" class="productsItem__title">Apple iPhone 13, 128 ГБ, розовый</a>
+								<p class="productsItem__price">77 990 ₽</p>
+								<p class="productsItem__oldPrice">82 990 ₽</p>
+								<div class="productsItem__cart">
+									<a href="#" class="btn btn_s btn_full">В корзину</a>
+								</div>
+							</div>
+							<div class="productsItem">
+								<a href="#" class="productsItem__wishlist" title="Добавить в избранное">
+									<img src="img/product-wishlist.svg" alt="">
+								</a>
+								<a href="#" class="productsItemImage">
+									<span class="productsItemImage__padding"></span>
+									<img src="img/product1.png" alt="">
+								</a>
+								<a href="#" class="productsItem__title">Apple iPhone 13, 128 ГБ, розовый</a>
+								<p class="productsItem__price">77 990 ₽</p>
+								<p class="productsItem__oldPrice">82 990 ₽</p>
+								<div class="productsItem__cart">
+									<a href="#" class="btn btn_s btn_full">В корзину</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+</main>
+
+
+
+
+<footer class="footer">
+	<div class="wrapper">
+		<div class="footer__wrap">
+			<div class="footerSide">
+				<div class="footerBlock">
+					<div class="footerBlockTitle">
+						<p class="h5 footerBlockTitle__text">Магазин</p>
+						<img src="img/footer-side-arrow.svg" alt="" class="footerBlockTitle__arrow">
+					</div>
+					<ul class="footerBlockList">
+						<li><a href="#">Смартфоны</a></li>
+						<li><a href="#">Планшеты</a></li>
+						<li><a href="#">ПК и ноутбуки</a></li>
+						<li><a href="#">Аксессуары</a></li>
+						<li><a href="#">Наушники</a></li>
+						<li><a href="#">Мышки</a></li>
+						<li><a href="#">Клавиатуры</a></li>
+						<li><a href="#">Игровые консоли</a></li>
+						<li><a href="#">Офисная мебель</a></li>
+						<li><a href="#">Микрофоны</a></li>
+						<li><a href="#">Игровые стулья</a></li>
+						<li><a href="#">Новинки</a></li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="footerSide">
+				<div class="footerBlock">
+					<div class="footerBlockTitle">
+						<p class="h5 footerBlockTitle__text">Подборки товаров</p>
+						<img src="img/footer-side-arrow.svg" alt="" class="footerBlockTitle__arrow">
+					</div>
+					<ul class="footerBlockList">
+						<li><a href="#">Apple</a></li>
+						<li><a href="#">Gamers</a></li>
+						<li><a href="#">В хороший офис</a></li>
+						<li><a href="#">Для творческой натуры</a></li>
+						<li><a href="#">В быту</a></li>
+					</ul>
+				</div>
+
+				<div class="footerBlock">
+					<div class="footerBlockTitle">
+						<p class="h5 footerBlockTitle__text">Сервисы</p>
+						<img src="img/footer-side-arrow.svg" alt="" class="footerBlockTitle__arrow">
+					</div>
+					<ul class="footerBlockList">
+						<li><a href="#">Trade-in</a></li>
+						<li><a href="#">Ремонт</a></li>
+						<li><a href="#">Сборка ПК</a></li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="footerSide">
+				<div class="footerBlock">
+					<div class="footerBlockTitle">
+						<p class="h5 footerBlockTitle__text">Информация</p>
+						<img src="img/footer-side-arrow.svg" alt="" class="footerBlockTitle__arrow">
+					</div>
+					<ul class="footerBlockList">
+						<li><a href="#">О нас</a></li>
+						<li><a href="#">Доставка</a></li>
+						<li><a href="#">Гарантии</a></li>
+						<li><a href="#">Криптооплата</a></li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="footerSide">
+				<p class="h5 footerSide__title">Всегда на связи</p>
+
+				<div class="footerContacts">
+					<a href="tel:+7 (977) 132-88-05" class="footerContacts__phone">+7 (977) 132-88-05</a>
+					<div class="footerContacts__links">
+						<a href="https://t.me/qweqwertuu" target="_blank" class="footerContacts__link" title="Telegram">
+							<img src="img/telegram-white.svg" alt="">
+						</a>
+					</div>
+				</div>
+
+				<div class="footerContactText">
+					<p><a href="#" target="_blank">Политика конфиденциальности</a></p>
+					<p>&copy; 2023 Ridd</p>
+					<p><a href="http://enigma-web.ru/" target="_blank">Сайт разработан командой ENIGMA</a></p>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+<!-- JavaScript section -->
+
+<script src="js/js-libs.min.js"></script>
+<script src="js/custom.js"></script>
+
+</body>
+</html>

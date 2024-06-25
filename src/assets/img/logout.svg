@@ -1,0 +1,11 @@
+<svg width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="icon/out" clip-path="url(#clip0_201_2953)">
+<path id="Vector 350" d="M14.9993 7.16663L18.3327 10.4999M18.3327 10.4999L14.9993 13.8333M18.3327 10.4999L6.66602 10.4999" stroke="black" stroke-opacity="0.9" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Ellipse 120" d="M12.5 15.7045C11.3587 16.6194 9.90991 17.1667 8.33334 17.1667C4.65144 17.1667 1.66667 14.1819 1.66667 10.5C1.66667 6.81814 4.65144 3.83337 8.33334 3.83337C9.90991 3.83337 11.3587 4.38064 12.5 5.29556" stroke="black" stroke-opacity="0.9" stroke-width="1.5" stroke-linecap="round"/>
+</g>
+<defs>
+<clipPath id="clip0_201_2953">
+<rect width="20" height="20" fill="white" transform="translate(20 0.5) rotate(90)"/>
+</clipPath>
+</defs>
+</svg>
